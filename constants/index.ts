@@ -17,11 +17,7 @@ export const navigation = [
         url: "#careers",
     },
 
-    {
-        id: "3",
-        title: "Contact Us",
-        url: "#contactUs",
-    },
+    
 
     
 
