@@ -8,6 +8,9 @@ import Button from './Button';
 import MenuSvg from '@/public/assets/svg/MenuSvg'
 import {HamburgerMenu} from '@/components/design/Header'
 
+//@ts-ignore
+import { disablePageScroll, enablePageScroll } from 'scroll-lock';
+
 function Header() {
     const [activeLink, setActiveLink] = useState('#hero'); 
     const[openNavigation , setOpenNavigation] = useState(false); 
@@ -16,12 +19,18 @@ function Header() {
 
         if(openNavigation){
             setOpenNavigation(false)
+            enablePageScroll() ; 
         }else{
             setOpenNavigation(true) ; 
+            disablePageScroll() ; 
         }
     }
 
     const handleClick =()=>{
+
+        if(!openNavigation)return ; 
+
+        enablePageScroll() ;    
         setOpenNavigation(false) ; 
     }
 
