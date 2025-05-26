@@ -13,6 +13,7 @@ import Generating from './Generating'
 import { ScrollParallax } from "react-just-parallax";
 import { heroIcons } from '@/constants'
 import Notification from './Notification'
+import CompanyLogos from './CompanyLogo'
 
 function Hero() {
 
@@ -109,6 +110,7 @@ function Hero() {
                     
                     <BackgroundCircles parallaxRef={parallaxRef} />
                 </div>
+                <CompanyLogos />
             </div>
 
             <BottomLine/>
