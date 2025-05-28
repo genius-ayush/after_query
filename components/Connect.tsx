@@ -10,7 +10,7 @@ import Connecting from "./Connecting";
 
 const Connect = () => {
   return (
-    <Section className="overflow-hidden" id="pricing">
+    <Section className="overflow-hidden" id="contactUs">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <Image

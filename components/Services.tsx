@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="researchInitiatives">
       <div className="container">
         <Heading
           title="Core Research Initiatives"

@@ -15,13 +15,20 @@ export const navigation = [
 
   {
     id: "1",
+    title: "Research Initiatives",
+    url: "#researchInitiatives",
+    onlyMobile: false,
+  },
+
+  {
+    id: "2",
     title: "Our Philosophy",
     url: "#ourPhilosophy",
     onlyMobile: false,
   },
 
   {
-    id: "2",
+    id: "3",
     title: "Careers",
     url: "#careers",
     onlyMobile: false,
@@ -29,7 +36,7 @@ export const navigation = [
 
 
   {
-    id: "3",
+    id: "4",
     title: "Contact Us",
     url: "#contactUs",
     onlyMobile: true,
