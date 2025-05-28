@@ -1,4 +1,4 @@
-import { file02, homeSmile, notification2, notification3, notification4, plusSquare, searchMd ,benefitIcon1 ,benefitIcon2 ,benefitIcon3 ,benefitIcon4 , benefitImage2, yourlogo, figma, notion, discord, slack, photoshop, protopie, framer, raindrop} from "@/public/assets";
+import { file02, homeSmile, notification2, notification3, notification4, plusSquare, searchMd ,benefitIcon1 ,benefitIcon2 ,benefitIcon3 ,benefitIcon4 , benefitImage2, yourlogo, figma, notion, discord, slack, photoshop, protopie, framer, raindrop, recording03, recording01, disc02, chromecast, sliders04} from "@/public/assets";
 import card1 from "@/public/assets/benefits/card-1.svg" ; 
 import card2 from "@/public/assets/benefits/card-2.svg"  
 import card3 from "@/public/assets/benefits/card-3.svg" ; 
@@ -98,21 +98,21 @@ export const benefits = [
   export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
   export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Great models start with great data. Our AI evolves with curated, high-quality datasets for unmatched performance.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Data-Driven Intelligence",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Research-Backed Performance",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Smarter Starts Here",
   },
 ];
 
@@ -173,4 +173,30 @@ export const collabApps = [
     width: 38,
     height: 32,
   },
+];
+
+export const Services1 = [
+  "Reasoning Limitations",
+  "Knowledge Representation",
+  "Context Processing",
+];
+
+export const Services2 = [
+  "Expert Decision Pathways",
+  "Tool Interaction Patterns",
+  "Tacit Knowledge Extraction",
+];
+
+export const Services3 = [
+  "Specificity Metrics",
+  "Contextual Richness",
+  "Targeted Diversity",
+];
+
+export const brainwaveServicesIcons = [
+  recording03,
+  recording01,
+  disc02,
+  chromecast,
+  sliders04,
 ];
