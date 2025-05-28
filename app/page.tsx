@@ -4,6 +4,10 @@ import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
 import Collaboration from "@/components/Collaboration";
 import Services from "@/components/Services";
+import Connect from "@/components/Connect";
+// import Roadmap from "@/components/Philosophy";
+import Philosophy from "@/components/Philosophy";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
@@ -13,6 +17,9 @@ export default function Home() {
         <Benefits/>
         <Collaboration/>
         <Services/>
+        <Philosophy/>
+        <Connect/>
+        <Footer/>
       </div>
       <ButtonGradient />
 
